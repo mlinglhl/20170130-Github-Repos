@@ -13,6 +13,8 @@
 		89434B491E3FB634005759AE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 89434B471E3FB634005759AE /* Main.storyboard */; };
 		89434B4B1E3FB634005759AE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 89434B4A1E3FB634005759AE /* Assets.xcassets */; };
 		89434B4E1E3FB634005759AE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 89434B4C1E3FB634005759AE /* LaunchScreen.storyboard */; };
+		89434B571E3FC283005759AE /* Repo.m in Sources */ = {isa = PBXBuildFile; fileRef = 89434B561E3FC283005759AE /* Repo.m */; };
+		89434B5A1E3FC495005759AE /* RepoCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 89434B591E3FC495005759AE /* RepoCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,10 @@
 		89434B4A1E3FB634005759AE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		89434B4D1E3FB634005759AE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		89434B4F1E3FB634005759AE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		89434B551E3FC283005759AE /* Repo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Repo.h; sourceTree = "<group>"; };
+		89434B561E3FC283005759AE /* Repo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Repo.m; sourceTree = "<group>"; };
+		89434B581E3FC495005759AE /* RepoCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RepoCell.h; sourceTree = "<group>"; };
+		89434B591E3FC495005759AE /* RepoCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RepoCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +68,10 @@
 				89434B421E3FB634005759AE /* AppDelegate.m */,
 				89434B441E3FB634005759AE /* ViewController.h */,
 				89434B451E3FB634005759AE /* ViewController.m */,
+				89434B551E3FC283005759AE /* Repo.h */,
+				89434B561E3FC283005759AE /* Repo.m */,
+				89434B581E3FC495005759AE /* RepoCell.h */,
+				89434B591E3FC495005759AE /* RepoCell.m */,
 				89434B471E3FB634005759AE /* Main.storyboard */,
 				89434B4A1E3FB634005759AE /* Assets.xcassets */,
 				89434B4C1E3FB634005759AE /* LaunchScreen.storyboard */,
@@ -152,7 +162,9 @@
 			files = (
 				89434B461E3FB634005759AE /* ViewController.m in Sources */,
 				89434B431E3FB634005759AE /* AppDelegate.m in Sources */,
+				89434B5A1E3FC495005759AE /* RepoCell.m in Sources */,
 				89434B401E3FB634005759AE /* main.m in Sources */,
+				89434B571E3FC283005759AE /* Repo.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

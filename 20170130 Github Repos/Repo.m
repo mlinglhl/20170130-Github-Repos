@@ -1,15 +1,13 @@
 //
-//  ViewController.h
+//  Repo.m
 //  20170130 Github Repos
 //
 //  Created by Minhung Ling on 2017-01-30.
 //  Copyright © 2017 Minhung Ling. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
+#import "Repo.h"
 
-@interface ViewController : UIViewController <UITableViewDelegate, UITableViewDataSource>
-
+@implementation Repo
 
 @end
-
